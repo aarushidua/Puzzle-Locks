@@ -56,6 +56,4 @@ key1 = [['*', '*'], ['*', '.']]
 
 stone1 = [['.', '.', '.'], ['.', '#', '.'], ['.', '.', '.']]
 
-#Files
 
-The files consist of solutions for all three puzzles and separate files for their sample test cases
