@@ -1,4 +1,4 @@
-# Puzzle-Solver
+# Puzzle-Locks
 
 Storyline: 
 Adventurer Lin has struggled through a maze of twisty little passages, all alike, to reach the bottom of a colossal cave hidden deep in the mountains.
