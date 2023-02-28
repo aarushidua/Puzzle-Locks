@@ -1,0 +1,6 @@
+print(third_lock(key1, stone1))
+print(third_lock(key2, stone1))
+print(third_lock(key1, stone2))
+print(third_lock(key2, stone2))
+print(third_lock(key1, stone3))
+print(third_lock(key2, stone3))
