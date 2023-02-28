@@ -16,16 +16,6 @@ Puzzle 2:
 The second lock consists of a "T"-shaped groove in the door. The left branch of the T is labelled source, the right branch is labelled destination, and the bottom branch is labelled store. Several gems are mounted in the left branch (the source) such that they can be slid along the groove toward the right or bottom branches. Each of the gems is numbered consecutively beginning from one. No numbers are skipped, nor are any numbers duplicated; however, some of the gems are out of order. Gems cannot be slid over the top of other gems.
 
 To unlock the door, Lin must slide the gems onto the destination branch in increasing numerical order. The store branch can be used to help reorder the gems (see below for a step by step example). After some experimentation, Lin notes that any gem which is slid into the destination or store branches can no longer slide back toward the source branch.
-
-Visualisation:
-
-(source)             (destination)
-   |-3-4-5-2-1-+-----------|
-               |
-               |
-               |
-               :
-            (store)
             
 The code:
  - Takes a list of integer gem numbers as input (number in position 0 is the last gem to be moved)
@@ -44,18 +34,8 @@ The code:
 - Take two nested lists describing the shape of the key (which parts are "raised") and the shape of the stone (which parts contain "holes" that raised parts of the key fit within) as input
 - Returns a tuple specifying the location (in terms of row-index and column-index) and orientation of the key if it will fit, or None if the key will not fit for any location or orientation
 
-Visualisation example:
-**
-*.
-
-key1 = [['*', '*'], ['*', '.']]
-
-...
-.#.
-...
-
-stone1 = [['.', '.', '.'], ['.', '#', '.'], ['.', '.', '.']]
-
 **Files**
 
-The files consist of solutions for all three puzzles and separate files for their sample test cases
+The files consist of solutions for all three puzzles, separate files for their sample test cases and visualisations for puzzle 2 and 3
+
+**Note**: This was completed as part of COMP10001: Foundations of Computing
